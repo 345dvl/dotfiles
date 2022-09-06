@@ -1,0 +1,49 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2, // タブのサイズ変更
+  "workbench.startupEditor": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true, // ファイル保存時に自動でフォーマット
+  "editor.formatOnType": true, // 入力した行を自動でフォーマット
+  "editor.wordWrap": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": [
+    "source.organizeImports",
+    "source.fixAll.eslint"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorCustomizations": {
+        "tab.activeBackground": "#607880cc",
+    },
+  "editor.renderWhitespace": "all",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.wrapTabs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "cSpell.enabledLanguageIds": [
+            "css",
+            "html",
+            "javascript",
+            "json",
+            "less",
+            "markdown",
+            "plaintext",
+            "scss",
+            "text",
+            "ruby",
+            "yaml",
+            "yml"
+          ],
+  "ruby.intellisense": "rubyLocate",
+  "ruby.useLanguageServer": true,
+  "solargraph.definitions": true,
+  "solargraph.diagnostics": true,
+  "go.toolsManagement.autoUpdate": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "gopls": {
+    "build.experimentalWorkspaceModule": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "window.zoomLevel": 1
+}
