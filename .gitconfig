@@ -1,0 +1,20 @@
+[user]
+	name = 345dvl
+	email = k.f.kntn@gmail.com
+[alias]
+    plog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso
+    today-numstat = !"f(){ \
+    git log \
+    --numstat \
+    --branches \
+    --no-merges \
+    --since=midnight \
+    --author=\"$(git config user.name)\" \
+    | awk 'NF==3 {a+=$1; d+=$2} END { \
+      printf(\"%d (\\x1b[32m+%d\\033[m, \\x1b[31m-%d\\033[m)\\n\", a+d, a, d)\
+    }'; \
+  };f"
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+[init]
+	defaultBranch = main
