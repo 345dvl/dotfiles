@@ -1,0 +1,278 @@
+// ~/.config/karabiner/assets/complex_modifications に配置
+{
+  "title": "fn",
+  "rules": [
+    {
+      "description": "fn + jkli（sdfe）で矢印キー",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "left_arrow" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "down_arrow" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "right_arrow" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "up_arrow" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "left_arrow" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "d",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "down_arrow" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "right_arrow" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "e",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "up_arrow" }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn + h;（ag）でbackspace / delete",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "delete_or_backspace" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "delete_forward" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "delete_or_backspace" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "delete_forward" }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn + uo（wr）でHome / End",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "home" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "end" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "home" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "r",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "end" }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn + spaceでEnter",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "return_or_enter" }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn + m,で-=",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "hyphen" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            { "key_code": "equal_sign" }
+          ]
+        }
+      ]
+    }
+  ]
+}
