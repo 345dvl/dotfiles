@@ -1,5 +1,5 @@
 [user]
-	name = 345dvl
+	name = frkawa
 	email = k.f.kntn@gmail.com
 [alias]
     plog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso
