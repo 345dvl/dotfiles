@@ -26,6 +26,10 @@ alias gsw='git switch'
 alias dco='docker-compose'
 alias grs.='git restore .'
 alias relogin='exec $SHELL -l'
+alias gf='git fetch'
+alias gps='git push'
+alias gst='git stash'
+alias gplr='git pull --rebase'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
