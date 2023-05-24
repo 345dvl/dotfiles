@@ -28,6 +28,7 @@ alias grs.='git restore .'
 alias relogin='exec $SHELL -l'
 alias gf='git fetch'
 alias gps='git push'
+alias gpf='git push -f'
 alias gst='git stash'
 alias gplr='git pull --rebase'
 
@@ -46,7 +47,6 @@ export PATH=$PATH:$GOPATH/bin
 # Escape
 autoload -Uz git-escape-magic
 git-escape-magic
-
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
@@ -201,8 +201,8 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit's installer chunk
 
-zinit light marlonrichert/zsh-autocomplete
 zinit light zsh-users/zsh-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions
 
 # catコマンドを見やすく表示
 zinit ice as"program" from"gh-r" mv"bat* -> bat" pick"bat/bat"
