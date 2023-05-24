@@ -18,3 +18,5 @@
 	editor = vim -c \"set fenc=utf-8\"
 [init]
 	defaultBranch = main
+[commit]
+	template = ~/.commit_template
